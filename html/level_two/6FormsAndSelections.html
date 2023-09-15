@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms And Selections</title>
+</head>
+<body>
+    <h1>Hotel feedback form</h1>
+    <form method="get">
+        <h3>Are you from the US?</h3>
+        <!-- By giving two input the same name with raio type they can be linked together, so only one -->
+        <!-- can be assigned to a variable (chosen) -->
+        <label for="inus">Inside:</label>
+        <input id="inus" type="radio" name="loc" value="inside" >
+
+        <label for="outusa">Outside:</label>
+        <input id="outusa" type="radio" name="loc" value="outside">
+
+        <h3>How was your service?</h3>
+        <!-- drop-out menu -->
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="Good">2</option>
+            <option value="Nice">1</option>
+            <option value="Bad">0</option>
+        </select>
+        <!-- Inputing a larger text -->
+
+        <h3>Any other feedback</h3>
+        <input type="text" name="" value="">
+        <h4>Say something more</h4>
+        <textarea name="mytext" rows="8" cols="80"></textarea>
+
+        <input type="submit" value="SUBMIT!">
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms and labels</title>
+</head>
+<body>
+    <!-- with action and method added user can be sent to another webpage, along with his input -->
+    <form class="" action="https://www.google.com" method="get">
+        <p>Enter Email:</p>
+        <input type="email" name="useremail" value="Provide your email" >
+        <input type="submit" name="" value="Click to submit" >
+    </form>
+    <form>
+        <!-- NOT DRY METHODS OF LABELING -->
+        <label>
+            Enter some text
+            <input type="text" name="" value ="">
+        </label>
+        <!-- DRY WAY: Using label with for parameter -->
+        <label for="userinput">Enter Input:</label>
+        <input id="userinput" type="text" name="" value="Hello World">
+    </form>
+    <form>
+        <!-- some additional input parameters -->
+        <!-- placeholders instead of values -->
+        <input id="userinput" type="text" name="" placeholder="This is my placeholder">
+        <!-- required makes the input needed to submit all inputs -->
+        <input id="userinput" type="text" name="" placeholder="This is my placeholder, but this one is required" required>
+    </form>
+</body>
+</html>
