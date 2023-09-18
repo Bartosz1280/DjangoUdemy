@@ -1,0 +1,34 @@
+/* Fonts in CSS */
+
+/* Ways fonts can be specified in css */
+
+h1 {
+    font-family: "Arial";
+}
+
+p{
+    font-family: monospace;
+}
+
+/* Ways to specify font sizes in css */
+body{
+    font-size:20px;
+}
+
+/* em stands for default sizes of used font (most browsers use 16px by default)
+ * using em allows to re-size font with relation to default size
+ * using em method is preferred over defying size in px*/
+#two {
+    font-size:2.0em /* twice as large as default */
+}
+
+/* text style ans text weights */
+p{ 
+    font-style:italic;
+    font-weight: bold;
+}
+
+/* text aliment */
+h1{
+    text-align: center;
+}

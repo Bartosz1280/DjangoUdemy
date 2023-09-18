@@ -1,0 +1,42 @@
+/*--licorice: #120309ff;
+--black-bean: #2e0f15ff;
+--tyrian-purple: #70163cff;
+--cadet-gray: #95b2b8ff;
+--dark-spring-green: #307351ff; */
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+#Caption {
+    text-align: center; 
+    font-size: 30;
+    font-family: Fuggles;
+}
+
+td {
+    /*padding: 100px;*/
+    width: 200px;
+    height: 400px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: solid 50px white;*/
+    border-spacing: 10px;
+}
+
+#c1 {
+    background-color: #120309ff;
+}
+#c2{
+    background-color: #2e0f15ff;
+}
+#c3 {
+    background-color: #70163cff;
+}
+
+#c4 {
+    background-color: #95b2b8ff;
+}
+#c5 {
+    background-color: #307351ff;
+}
+

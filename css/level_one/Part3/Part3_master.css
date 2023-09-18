@@ -1,0 +1,67 @@
+/* by using div {} every div element in the html is modified
+    div{
+    color: red;
+    }
+*/
+
+/* Most often we want to affect only one particular class ,rather than every div.
+ * CSS allows to refer to div classes defined in html file.
+ * To refer this class .class notation needs to be used.
+ *
+ * Code below modifies two defined divs
+ */
+
+.firstDiv{
+    color:blue;
+}
+
+.secondDiv{
+    color: red;
+}
+
+/* html elements with unique id can be also accessed with #id notation
+ */
+
+#singledout{
+    color: purple;
+    text-decoration: line-through;
+}
+
+/* all elements on the website can accessed by using *
+ */
+
+/* commented out to see other styling
+*{
+    color:black;
+}
+*/
+
+/* elements can accessed based on another element nearby (siblings)
+ *
+ * Code below wraps every unordered list element with a border
+ */
+
+h3+ ul{
+    border: 4px dotted purple;
+}
+
+/* Elements inside another elements can be accessed
+ * by using separating their name with space (Descendant)
+ * 
+ * Code below access anchors within a list elements
+ */
+
+li a {
+    color: green;
+}
+
+/* Except for all passing all Descendant, some of them might be specified
+ * using their attributes
+ *
+ * Code below grabs every anchor with specified href
+ */
+
+li a[href="http://www.reddit.com"]{
+    color: orange;
+    border: 5px solid yellow;
+}
