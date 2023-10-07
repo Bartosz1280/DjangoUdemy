@@ -1,0 +1,25 @@
+body{
+    background-color: #34ebd5;
+    font-family: monospace;
+    padding: 0px 100px 0px 100px;
+}
+
+div{
+    background-color: #0e1f1d;
+    text-align: center;
+    /*padding: 30px;*/
+    color: white;
+    font-size: 20px;
+}
+
+#head{
+    padding:10px 0px 100px 0px;
+}
+
+#text{
+    padding:0px 300px 200px 300px;
+}
+
+label{
+    display:block;
+}
